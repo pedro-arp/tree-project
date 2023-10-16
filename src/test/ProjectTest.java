@@ -12,7 +12,6 @@ public class ProjectTest {
     private static boolean isDuplicateCPF(Customer customer, Set<Customer> customersSet) {
         return customersSet.stream().anyMatch(existingCustomer -> existingCustomer.getCpf().equals(customer.getCpf()));
     }
-
     public static Customer findCustomerByCPF(String cpf, List<Customer> customerList) {
         for (Customer customer : customerList) {
             if (customer.getCpf().equals(cpf)) {
@@ -21,11 +20,10 @@ public class ProjectTest {
         }
         return null;
     }
-
     public static void main(String[] args) {
-        NavigableSet<Customer> customersSet = new TreeSet<>();
-        NavigableMap<String, Customer> customersMap = new TreeMap<>();
         List<Customer> customersList = new ArrayList<>();
+        NavigableMap<String, Customer> customersMap = new TreeMap<>();
+        NavigableSet<Customer> customersSet = new TreeSet<>();
 
         LocalDate customer1Birth = LocalDate.of(2002, Month.FEBRUARY, 24);
         Customer customer1 = new Customer("Pedro", customer1Birth, "1199999-0001", "rm95989@fiap.com.br", "FIAP - Lins", "123.456.789-01");
@@ -62,8 +60,6 @@ public class ProjectTest {
         for (Customer customer : customersSet) {
             System.out.println(customer);
         }
-
-
     }
 }
 
