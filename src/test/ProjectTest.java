@@ -54,11 +54,11 @@ public class ProjectTest {
         } else {
             System.out.println("Cliente com CPF " + cpfToFind + " não encontrado.");
         }
-        System.out.println("-");
+        System.out.println("--");
         for (Map.Entry<String, Customer> entry : customersMap.entrySet()) {
             System.out.println("Cpf: " + entry.getKey() + " | " + entry.getValue());
         }
-        System.out.println("-");
+        System.out.println("--");
         for (Customer customer : customersSet) {
             System.out.println(customer);
         }
