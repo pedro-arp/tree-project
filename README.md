@@ -23,7 +23,7 @@ O **Sistema de Cadastro de Clientes** é uma aplicação Java para armazenar e g
 
 - `ProjectTest.java`: Classe principal do programa que contém o método `main`.
 - `Customer.java`: Classe que representa um cliente com seus atributos (nome, data de nascimento, telefone, CPF, etc.).
-- Outros arquivos relevantes, como bibliotecas ou classes adicionais, se necessário.
+
 
 ## Requisitos
 
