@@ -59,6 +59,7 @@ public class ProjectTest {
         System.out.println("--");
         for (Customer customer : customersSet) {
             System.out.println(customer);
+TESTANDO COMIT APENAS
         }
     }
 }
