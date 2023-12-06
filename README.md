@@ -1,30 +1,30 @@
-# Sistema de Cadastro de Clientes
+# Customer Registration System
 
-O **Sistema de Cadastro de Clientes** é uma aplicação Java para armazenar e gerenciar informações de clientes. Ele permite que você adicione clientes, verifique a duplicação de CPFs e busque clientes por CPF.
+The **Customer Registration System** is a Java application designed to store and manage customer information. It allows you to add customers, check for duplicate CPFs (Brazilian individual taxpayer registry number), and search for customers by CPF.
 
-## Como Usar
+## How to Use
 
-**Execução do Programa:**
+**Running the Program:**
 
-   Certifique-se de ter o ambiente Java configurado em sua máquina.
-**Adição de Clientes:**
+   Make sure you have the Java environment set up on your machine.
 
-- O programa permite adicionar clientes fornecendo seus detalhes, como nome, data de nascimento, número de telefone e CPF.
+**Adding Customers:**
 
-**Verificação de CPF Duplicado:**
+- The program allows you to add customers by providing their details, such as name, date of birth, phone number, and CPF.
 
-- Antes de adicionar um novo cliente, o programa verifica se um cliente com o mesmo CPF já existe na lista.
+**Checking for Duplicate CPF:**
 
-**Busca de Clientes por CPF:**
+- Before adding a new customer, the program checks if a customer with the same CPF already exists in the list.
 
-- Você pode buscar clientes por CPF no programa. Ele retornará as informações do cliente se encontrado.
+**Searching for Customers by CPF:**
 
-## Estrutura do Projeto
+- You can search for customers by CPF in the program. It will return customer information if found.
 
-- `ProjectTest.java`: Classe principal do programa que contém o método `main`.
-- `Customer.java`: Classe que representa um cliente com seus atributos (nome, data de nascimento, telefone, CPF, etc.).
+## Project Structure
 
+- `ProjectTest.java`: Main class of the program containing the `main` method.
+- `Customer.java`: Class representing a customer with its attributes (name, date of birth, phone, CPF, etc.).
 
-## Requisitos
+## Requirements
 
-- Ambiente Java configurado.
+- Java environment configured.
